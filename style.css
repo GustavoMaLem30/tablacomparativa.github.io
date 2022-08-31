@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Neucha';
+}
+#seccionPrincipal h1{
+	font-size: 68px;
+	letter-spacing: 5px;
+}
+#seccionPrincipal h2{
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+#seccionPrincipal h3{
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+#seccionPrincipal img{
+	margin-top: 30px;
+	max-width: 300px;
+}
+#seccionConclusiones img{
+	margin-top: 30px;
+	max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#seccionPrincipal {
+    background-color: #ffffff;
+}
+
+#seccionPrincipal{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#seccionPregunta1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#seccionPregunta1 h1{
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+#seccionPregunta2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#seccionPregunta2 h1{
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+p{
+    font-size: 20px;
+	letter-spacing: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+	text-align:justify;
+}
+#seccionComparativa{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#seccionConclusiones{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#seccionConclusiones h1{
+	font-size: 50px;
+	letter-spacing: 5px;
+}
